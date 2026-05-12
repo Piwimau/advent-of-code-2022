@@ -1,0 +1,35 @@
+<Solution>
+    <Folder Name="/items/">
+        <File Path=".editorconfig" />
+        <File Path=".gitignore" />
+        <File Path="LICENSE" />
+        <File Path="README.md" />
+    </Folder>
+    <Folder Name="/src/">
+        <Project Path="src/day-01-calorie-counting/day-01-calorie-counting.csproj" />
+        <Project Path="src/day-02-rock-paper-scissors/day-02-rock-paper-scissors.csproj" />
+        <Project Path="src/day-03-rucksack-reorganization/day-03-rucksack-reorganization.csproj" />
+        <Project Path="src/day-04-camp-cleanup/day-04-camp-cleanup.csproj" />
+        <Project Path="src/day-05-supply-stacks/day-05-supply-stacks.csproj" />
+        <Project Path="src/day-06-tuning-trouble/day-06-tuning-trouble.csproj" />
+        <Project Path="src/day-07-no-space-left-on-device/day-07-no-space-left-on-device.csproj" />
+        <Project Path="src/day-08-treetop-tree-house/day-08-treetop-tree-house.csproj" />
+        <Project Path="src/day-09-rope-bridge/day-09-rope-bridge.csproj" />
+        <Project Path="src/day-10-cathode-ray-tube/day-10-cathode-ray-tube.csproj" />
+        <Project Path="src/day-11-monkey-in-the-middle/day-11-monkey-in-the-middle.csproj" />
+        <Project Path="src/day-12-hill-climbing-algorithm/day-12-hill-climbing-algorithm.csproj" />
+        <Project Path="src/day-13-distress-signal/day-13-distress-signal.csproj" />
+        <Project Path="src/day-14-regolith-reservoir/day-14-regolith-reservoir.csproj" />
+        <Project Path="src/day-15-beacon-exclusion-zone/day-15-beacon-exclusion-zone.csproj" />
+        <Project Path="src/day-16-proboscidea-volcanium/day-16-proboscidea-volcanium.csproj" />
+        <Project Path="src/day-17-pyroclastic-flow/day-17-pyroclastic-flow.csproj" />
+        <Project Path="src/day-18-boiling-boulders/day-18-boiling-boulders.csproj" />
+        <Project Path="src/day-19-not-enough-minerals/day-19-not-enough-minerals.csproj" />
+        <Project Path="src/day-20-grove-positioning-system/day-20-grove-positioning-system.csproj" />
+        <Project Path="src/day-21-monkey-math/day-21-monkey-math.csproj" />
+        <Project Path="src/day-22-monkey-map/day-22-monkey-map.csproj" />
+        <Project Path="src/day-23-unstable-diffusion/day-23-unstable-diffusion.csproj" />
+        <Project Path="src/day-24-blizzard-basin/day-24-blizzard-basin.csproj" />
+        <Project Path="src/day-25-full-of-hot-air/day-25-full-of-hot-air.csproj" />
+    </Folder>
+</Solution>

@@ -46,20 +46,20 @@ The general structure of this project is as follows:
 
 ```plaintext
 src/
-  Day-01-Calorie-Counting/
-    Resources/
+  day-01-calorie-counting/
+    resources/
       .gitkeep
     Benchmark.cs
     CalorieCounting.cs
-    Day-01-Calorie-Counting.csproj
-  Day-02-Rock-Paper-Scissors/
-    Resources/
+    day-01-calorie-counting.csproj
+  day-02-rock-paper-scissors/
+    resources/
       .gitkeep
     Benchmark.cs
-    Day-02-Rock-Paper-Scissors.csproj
+    day-02-rock-paper-scissors.csproj
     RockPaperScissors.cs
   ...
-  Day-25-Full-of-Hot-Air/
+  day-25-full-of-hot-air/
     ...
 .gitignore
 Advent-of-Code-2022.slnx
@@ -92,8 +92,8 @@ If you want to try out one of my solutions, simply follow these steps below:
    choice.
 
    ```shell
-   git clone https://github.com/Piwimau/Advent-of-Code-2022 ./Advent-of-Code-2022
-   cd ./Advent-of-Code-2022
+   git clone https://github.com/Piwimau/advent-of-code-2022 ./advent-of-code-2022
+   cd ./advent-of-code-2022
    ```
 
 3. Put your input for the day in a file called `input.txt` and copy it to the
@@ -102,13 +102,13 @@ If you want to try out one of my solutions, simply follow these steps below:
    already.
 
    ```shell
-   cp input.txt ./src/Day-01-Calorie-Counting/Resources
+   cp input.txt ./src/day-01-calorie-counting/resources
    ```
 
 4. Nagivate into the appropriate day's directory.
 
    ```shell
-   cd ./src/Day-01-Calorie-Counting
+   cd ./src/day-01-calorie-counting
    ```
 
 5. Finally, run the code in release mode to take advantage of all optimizations

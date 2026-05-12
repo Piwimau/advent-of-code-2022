@@ -70,7 +70,7 @@ README.md
 The [solution file](Advent-of-Code-2022.slnx) contains 25 standalone projects
 for the days of the Advent calendar, organized into separate directories. Each
 one provides a corresponding `.csproj` file that can be opened in Visual Studio.
-In addition, there is a `Resources` directory which contains the puzzle
+In addition, there is a `resources` directory which contains the puzzle
 description and my personal input for that day. However, [as
 requested](https://adventofcode.com/2022/about) by the creator of Advent of
 Code, these are only present in my own private copy of the repository and

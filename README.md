@@ -26,7 +26,7 @@ and learn more about Advent of Code [here](https://adventofcode.com/2022/about).
 
 The solutions for Advent of Code 2022 were originally developed using `.NET 7`
 and `C# 11` at the time. Since then I have taken some time to update them to
-more recent versions (`.NET 9` and `C# 13`), which allowed me to take advantage
+more recent versions (`.NET 10` and `C# 14`), which allowed me to take advantage
 of new language features and modern data structures that either did not exist
 yet or I did not know about (as I was still learning the whole ecosystem). These
 include expression bodies (`=>`), collection expressions (`[...]`), target-typed
@@ -46,23 +46,26 @@ The general structure of this project is as follows:
 
 ```plaintext
 src/
-  day-01-calorie-counting/
-    resources/
+  Day-01-Calorie-Counting/
+    Resources/
       .gitkeep
     Benchmark.cs
-    CalorieCounting.cs
-    day-01-calorie-counting.csproj
-  day-02-rock-paper-scissors/
-    resources/
+    Day-01-Calorie-Counting.csproj
+    Program.cs
+  Day-02-Rock-Paper-Scissors/
+    Resources/
       .gitkeep
     Benchmark.cs
-    day-02-rock-paper-scissors.csproj
-    RockPaperScissors.cs
+    Day-02-Rock-Paper-Scissors.csproj
+    Program.cs
   ...
-  day-25-full-of-hot-air/
+  Day-25-Full-Of-Hot-Air/
     ...
+.editorconfig
 .gitignore
 Advent-of-Code-2022.slnx
+Directory.Build.props
+Directory.Packages.props
 LICENSE
 README.md
 ```
@@ -70,7 +73,7 @@ README.md
 The [solution file](Advent-of-Code-2022.slnx) contains 25 standalone projects
 for the days of the Advent calendar, organized into separate directories. Each
 one provides a corresponding `.csproj` file that can be opened in Visual Studio.
-In addition, there is a `resources` directory which contains the puzzle
+In addition, there is a `Resources` directory which contains the puzzle
 description and my personal input for that day. However, [as
 requested](https://adventofcode.com/2022/about) by the creator of Advent of
 Code, these are only present in my own private copy of the repository and
@@ -86,7 +89,7 @@ described in more detail in the following section.
 
 If you want to try out one of my solutions, simply follow these steps below:
 
-1. Make sure you have `.NET 9` or a later version installed on your machine.
+1. Make sure you have `.NET 10` or a later version installed on your machine.
 
 2. Clone the repository (or download the source code) to a directory of your
    choice.
@@ -102,20 +105,20 @@ If you want to try out one of my solutions, simply follow these steps below:
    already.
 
    ```shell
-   cp input.txt ./src/day-01-calorie-counting/resources
+   cp input.txt ./src/Day-01-Calorie-Counting/Resources
    ```
 
 4. Nagivate into the appropriate day's directory.
 
    ```shell
-   cd ./src/day-01-calorie-counting
+   cd ./src/Day-01-Calorie-Counting
    ```
 
 5. Finally, run the code in release mode to take advantage of all optimizations
    and achieve the best performance.
 
    ```shell
-   dotnet run --configuration Release
+   dotnet run -c Release
    ```
 
    Optionally, specify an additional flag `--benchmark` to benchmark the
@@ -123,11 +126,11 @@ If you want to try out one of my solutions, simply follow these steps below:
    results of the solved puzzle is produced.
 
    ```shell
-   dotnet run --configuration Release --benchmark
+   dotnet run -c Release --benchmark
    ```
 
 If you have Visual Studio installed on your machine, you may also just open the
-provided [solution file](Advent-of-Code-2022.slnx) and proceed from there.
+[solution file](Advent-of-Code-2022.slnx) and proceed from there.
 
 ## Benchmarks
 

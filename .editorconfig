@@ -79,7 +79,7 @@ csharp_style_prefer_method_group_conversion = true:suggestion
 csharp_style_prefer_not_pattern = true:suggestion
 csharp_style_prefer_null_check_over_type_check = true:suggestion
 csharp_style_prefer_pattern_matching = true:silent
-csharp_style_prefer_primary_constructors = true:silent
+csharp_style_prefer_primary_constructors = false:silent
 csharp_style_prefer_range_operator = true:suggestion
 csharp_style_prefer_readonly_struct = true:suggestion
 csharp_style_prefer_readonly_struct_member = true:suggestion
@@ -164,3 +164,7 @@ dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_readonly_field = true:suggestion
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:suggestion
 file_header_template = unset
+
+[*.{json,jsonc,xml,csproj,slnx,props,md}]
+indent_size = 2
+tab_width = 2

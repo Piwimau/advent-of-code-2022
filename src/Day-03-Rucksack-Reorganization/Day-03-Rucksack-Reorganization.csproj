@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <RootNamespace>RucksackReorganization</RootNamespace>
-    </PropertyGroup>
-    <ItemGroup>
-        <PackageReference Include="BenchmarkDotNet" />
-        <PackageReference Include="CommunityToolkit.Diagnostics" />
-    </ItemGroup>
-    <ItemGroup>
-        <None Update="Resources\input.txt">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-    </ItemGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RucksackReorganization</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" />
+    <PackageReference Include="CommunityToolkit.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Resources\input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
